@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+Nav{
+    display: grid;
+    margin: 1.5em 12em;
+    width: 70%;
+    grid-template-columns: 13em 30em;
+    font-family: "PT Serif";
+}
+Nav h1{
+  align-self: center;
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: -1.62px;
+  margin: 0 0 1em 0;
+}
+.who-we-are{
+  display: flex;
+  flex-direction: column;
+  margin: 0 14em;
+  font-family: "Poppins";
+  width:25em;
+}
+.who-we-are h4{
+  height: 1em;
+}
+
+.Frame{
+  display: grid; 
+  grid-template-columns: 13.5em 9em;
+  grid-template-rows:23.5em; 
+}
+.Frame h4{
+  transform: rotate(90deg);
+  height: 0;
+  margin-top:4.5em;
+  font-family: "PT Serif";
+  font-weight: 100;
+}
+.Frame h2{
+  font-size: 1em;
+  font-family: "Poppins";
+}
+.Frame img{
+  height: 23.5em;
+}
+.Skyline{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.mid{
+  margin-top: 4em;
+}
+
+
+
+@media only screen and (max-width : 550px){
+  Nav{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    margin-top: 1em;
+  }
+  Nav h1{
+    align-self: flex-start;
+  }
+  .who-we-are{
+    margin:0;
+    width:24.7em;
+  }
+  .who-we-are h4{
+    font-size: 1.3em;
+  }
+  .Frame{
+    display: grid;
+    grid-template-columns: 8.0em 9em;
+    grid-template-rows: 15em;
+  }
+  .Frame img{
+      height: 15.5em;
+  }
+  .Skyline{
+    display: grid;
+    grid-template-columns: 18.5em 9em;
+  }
+  .mid{
+    margin-top: 0;
+  }
+  .double{
+    margin-top: 3.5em;
+  }
+}
