@@ -53,6 +53,7 @@ Nav h1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  margin-left:3em
 }
 .mid{
   margin-top: 4em;
@@ -88,6 +89,7 @@ Nav h1{
   .Skyline{
     display: grid;
     grid-template-columns: 18.5em 9em;
+    margin-left:0;
   }
   .mid{
     margin-top: 0;
